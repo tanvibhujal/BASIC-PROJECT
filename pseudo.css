@@ -1,0 +1,39 @@
+/* Pseudo Class */
+
+/* :hover */
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* :focus */
+input:focus {
+    background-color: lightyellow;
+    border: 2px solid green;
+}
+
+/* :first-child */
+li:first-child {
+    color: red;
+}
+
+
+/* Pseudo Element */
+
+/* ::before */
+.para::before {
+    content: "Start: ";
+    color: blue;
+}
+
+/* ::after */
+.para::after {
+    content: " :End";
+    color: red;
+}
+
+/* ::first-letter */
+.text::first-letter {
+    color: green;
+    font-size: 30px;
+}
